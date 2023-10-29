@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message LatLng {
+    // degree between
+    // -90, +90
+    double latitute = 1;
+    // degree between
+    // -180, +180
+    double longitude =2;
+}
